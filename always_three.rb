@@ -10,9 +10,4 @@
 # tell us the final number
 puts "Give me a number:"
 number_1 = gets.to_i
-number_2 = number_1 + 5
-number_2 *= 2
-number_2 -= 4
-number_2 = number_2/2
-number_2 -= number_1
-print "Final number: #{number_2}"
+print "Final number: #{number_1 = ((((number_1 + 5)*2)-4)/2) - number_1}"
