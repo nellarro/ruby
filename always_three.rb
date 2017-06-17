@@ -14,5 +14,5 @@ number_2 = number_1 + 5
 number_2 *= 2
 number_2 -= 4
 number_2 = number_2/2
-last_num = number_2 - number_1
-print "Final number: #{last_num}"
+number_2 -= number_1
+print "Final number: #{number_2}"
