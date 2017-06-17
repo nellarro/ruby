@@ -1,4 +1,7 @@
-def first_method
-puts "This is my first method!"
+def math_method(num1, num2)
+  number = num1 + num2
+  puts number
 end
-first_method
+
+math_method(165, 73)
+math_method(89, 1234)
